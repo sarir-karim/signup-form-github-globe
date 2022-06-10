@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(./img//bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.geeky_main {
+  background-size: cover;
+  height: auto;
+  width: 60%;
+}
+
+.geeky_main .geeky_header img {
+  width: 90px;
+  margin: 10px 80px;
+}
+
+.geeky_main .geeky_body {
+  padding: 70px 0px 28px 80px;
+}
+
+.geeky_main .geeky_body .geeky_login h4 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: IBM Plex Sans, Helvetica Neue, Arial, sans-serif;
+}
+.geeky_main .geeky_body .geeky_login .login_para {
+  color: #8d8d8d;
+  font-size: 0.885rem;
+  margin-top: 8px;
+}
+
+.geeky_main .geeky_body .geeky_login a {
+  color: #78a9ff;
+  cursor: pointer;
+}
+
+.geeky_main .geeky_body .geeky_form {
+  margin-top: 36px;
+  position: relative;
+}
+
+.geeky_main .geeky_body .geeky_form span {
+  color: #8d8d8d;
+}
+
+/* company*/
+.company {
+  margin-top: 10px;
+}
+.company #id{
+    margin-left: 5px;
+}
+
+.company #email {
+  margin-left: 45px;
+}
+
+.company #password {
+  margin-left: 20px;
+}
+.company label {
+  color: rgb(179, 173, 173);
+  margin-right: 20px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.company input {
+  padding: 5px 10px;
+}
+
+.geeky_main .geeky_form .form input {
+  color: #fff;
+  background-color: #161616;
+  padding: 15px 30px 16px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #6f6f6f;
+}
+.geeky_main .geeky_form .form input:focus{
+  background-color: #161616; 
+}
+
+.geeky_main .geeky_form .form .password {
+  margin-top: 20px;
+}
+
+.geeky_main .geeky_form .continue_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 49%;
+  padding: 15px 10px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #0f62fe;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.geeky_main .geeky_form .continue_btn:hover {
+  background-color: #1358d6;
+}
+
+.geeky_main .geeky_form .forgetId {
+  font-size: 0.875rem;
+  color: #78a9ff;
+}
+
+.geeky_main .geeky_form .copyright {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* end part */
+
+.geeky_github {
+  background-position: right;
+  width: 50%;
+}
+.geeky_github {
+  display: flex;
+  justify-content: center;
+}
+.geeky_github img {
+  animation: imge-spin infinite 20s linear;
+  width: 85%;
+  overflow: hidden;
+  position: relative;
+  top: 6rem;
+}
+
+@keyframes imge-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(100deg);
+  }
+  to {
+    transform: rotate(120deg);
+  }
+  to {
+    transform: rotate(200deg);
+  }
+  to {
+    transform: rotate(300deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
